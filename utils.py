@@ -73,4 +73,4 @@ if __name__ == "__main__":
     # if trips occur on weekend or US holiday
     trip_avg_fare_DF['weekend/holiday'] = trip_avg_fare_DF['pickup_date'].map(lambda date: 1 if is_weekend_or_holiday(date) else 0)
 
-    trip_avg_fare_DF.to_csv('fare_prediction/processed' + args.filename) 
+    trip_avg_fare_DF.to_csv('preprocessed_fare_prediction/processed_' + args.filename) 

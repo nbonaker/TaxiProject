@@ -1,2 +1,6 @@
+.ipynb_checkpoints/
 data/
 .DS_Store
+raw_taxi_data
+agg_taxi_fare_data
+fare_prediction_data

@@ -17,6 +17,7 @@ def create_trip_DF(path):
     df["pickup_datetime"] = pd.to_datetime(df["pickup_datetime"], format='%Y-%m-%d %H:%M:%S', errors='ignore')
     df["dropoff_datetime"] = pd.to_datetime(df["dropoff_datetime"], format='%Y-%m-%d %H:%M:%S', errors='ignore')
     df.dropna()
+    df = df[(df['fare_amount'] >= 2.50) & (df['trip_distance'] > 0)]
     return df
 
 def get_time_of_day_bin(timestamp, time_of_day_bins):
@@ -38,6 +39,9 @@ def append_and_fill_time_of_day_bins(df, time_of_day_bins):
         df[time_bin] = df['pickup_datetime'].map(lambda timestamp: 1 if get_time_of_day_bin(timestamp, time_of_day_bins) == time_bin else 0)
     return df
 
+def create_avg_fare_df(df):
+  fare_prediction_df = df.groupby(["pickup_location_ID", "dropoff_location_ID", "pickup_date"] + time_of_day_bins, as_index=False).agg(avg_fare=('fare_amount', 'mean'))
+  return fare_prediction_df
 
 def is_weekend_or_holiday(date):
   date_day = date.day

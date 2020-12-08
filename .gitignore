@@ -1,6 +1,8 @@
 .ipynb_checkpoints/
 data/
+preprocessed_fare_prediction/
 .DS_Store
 raw_taxi_data
 agg_taxi_fare_data
 fare_prediction_data
+surge_prediction_data

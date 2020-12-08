@@ -12,7 +12,7 @@ def load_surge_data(data_dir, month_nums):
         data_path = data_dir + "/surge_2019-0" + str(month_nums) + ".csv"
         surge_DF = pd.read_csv(data_path)
 
-    X = surge_DF[surge_DF.columns[2:]].values[:-1]
+    X = surge_DF[surge_DF.columns[2:]].values[:-1].astype(int)
     y = surge_DF[surge_DF.columns[9:]].values[1:]
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=1)
@@ -22,10 +22,11 @@ def load_surge_data(data_dir, month_nums):
     print("X val: ", X_val.shape, "y val: ", y_val.shape)
     print("X test: ", X_test.shape, "y test: ", y_test.shape)
 
-    return {"train": (X_train, y_train), "test": (X_test, y_test), "val": (X_val, y_val)}
+    return X_train, y_train, X_test, y_test, X_val, y_val
 
 def main():
-    load_surge_data("../data", "all")
+    load_surge_data("../data", 1)
+
 
 
 if __name__ == '__main__':

@@ -4,3 +4,4 @@ data/
 raw_taxi_data
 agg_taxi_fare_data
 fare_prediction_data
+.vscode

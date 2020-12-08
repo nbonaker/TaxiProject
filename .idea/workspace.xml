@@ -6,22 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fec62de2-2c82-45fd-9a52-7d5823ed2ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TaxiProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Surge Prediction/surge_thresholding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/surge_5_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/surge_5_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/surge_5_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/surge_5_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/surge_5_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/surge_5_50.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fare Prediction/create_train_val_test_avg_fare.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Fare Prediction/create_train_val_test_avg_fare.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Surge Prediction/create_train_val_test_surge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Surge Prediction/create_train_val_test_surge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Surge Prediction/surge_full_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Surge Prediction/surge_full_nn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surge_data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/surge_data_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="data/" />
@@ -38,14 +24,23 @@
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/surge_data_load.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -57,18 +52,6 @@
               <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,10 +91,10 @@
         <option value="$PROJECT_DIR$/Surge Prediction/load_datasets.py" />
         <option value="$PROJECT_DIR$/Surge Prediction/create_train_val_test_surge.py" />
         <option value="$PROJECT_DIR$/Surge Prediction/surge_full_nn.ipynb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Surge Prediction/surge_thresholding.py" />
         <option value="$PROJECT_DIR$/Surge Prediction/surge_full_nn.py" />
         <option value="$PROJECT_DIR$/surge_data_load.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -338,7 +321,7 @@
       <workItem from="1605803187221" duration="6000" />
       <workItem from="1605826489418" duration="3241000" />
       <workItem from="1605902714500" duration="6000" />
-      <workItem from="1607110067853" duration="35033000" />
+      <workItem from="1607110067853" duration="35285000" />
     </task>
     <task id="LOCAL-00001" summary="--initial data load and visualizations with Pandas and NetworkX&#10;--download yellow_tripdata... data from Jan 2019 separately">
       <created>1605643068705</created>
@@ -361,16 +344,24 @@
       <option name="project" value="LOCAL" />
       <updated>1607279377711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="--added code to create surge graphs using scipy sparse">
+      <created>1607456267286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607456267286</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55189000" />
+    <option name="totallyTimeSpent" value="55441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="542" y="0" width="1512" height="1246" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23658872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23658872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,9 +371,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329148" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32858416" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32825112" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Jupyter" order="11" weight="0.32591274" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32947463" />
@@ -427,7 +418,8 @@
     <MESSAGE value="--initial data load and visualizations with Pandas and NetworkX&#10;--download yellow_tripdata... data from Jan 2019 separately" />
     <MESSAGE value="--surge dataset" />
     <MESSAGE value="--surge data train/test/val load" />
-    <option name="LAST_COMMIT_MESSAGE" value="--surge data train/test/val load" />
+    <MESSAGE value="--added code to create surge graphs using scipy sparse" />
+    <option name="LAST_COMMIT_MESSAGE" value="--added code to create surge graphs using scipy sparse" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TaxiProject$load_datasets.coverage" NAME="load_datasets Coverage Results" MODIFIED="1607278806504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Surge Prediction" />
@@ -567,13 +559,6 @@
     <entry file="file://$PROJECT_DIR$/figures/surge_5_40.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/sparse/_matrix_io.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -594,16 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Surge Prediction/surge_full_nn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Surge Prediction/create_train_val_test_surge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -614,13 +589,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Surge Prediction/surge_full_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/surge_data_load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
